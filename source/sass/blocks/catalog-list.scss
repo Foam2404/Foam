@@ -1,0 +1,17 @@
+.catalog-list{
+  @media (max-width: $breakpoint-mobile) {
+   }
+   @media (min-width: $breakpoint-tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+   }
+   @media (min-width: $breakpoint-desktop) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 64px;
+   }
+}
+
+

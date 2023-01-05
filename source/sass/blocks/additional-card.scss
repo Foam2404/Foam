@@ -1,0 +1,31 @@
+.additional-card{
+  list-style-type: none;
+}
+
+.additional-card__heading{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.additional-card__title{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.additional-card__description{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}

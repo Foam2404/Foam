@@ -1,0 +1,39 @@
+.card__heading{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.card__title{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.card__description{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.card{
+  @media (min-width: $breakpoint-tablet) {
+    background-color: #F2F2F2;
+    width: 324px;
+    height: 430px;
+   }
+   @media (min-width: $breakpoint-desktop) {
+    width: 245px;
+    height: 431px;
+  }
+}

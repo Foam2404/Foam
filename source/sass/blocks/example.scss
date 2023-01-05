@@ -1,0 +1,92 @@
+.example{
+  background-color: #EAEAEA;;
+  @media (max-width: $breakpoint-mobile) {
+    margin: 0;
+    padding: 0;
+    padding: 25px 20px 40px 20px;
+  }
+  @media (min-width: $breakpoint-tablet) {
+    margin: 0;
+    padding: 0;
+    padding: 43px 30px 72px 30px;
+  }
+}
+
+.example__heading{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  @media (min-width: $breakpoint-desktop) {
+
+  }
+}
+
+.example__description{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.example__definition{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.example__title{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #444444;
+}
+
+.example__spending{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.example__list{
+  text-align: center;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.example__images{
+  @media (max-width: $breakpoint-mobile) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: $breakpoint-tablet) {
+    display: flex;
+  }
+}
+
+
+.example__wrapper{
+  @media (min-width: $breakpoint-desktop) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.example__time{
+  @media (min-width: $breakpoint-desktop) {
+    margin-right: 194px;
+  }
+}

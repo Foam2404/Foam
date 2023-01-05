@@ -1,0 +1,104 @@
+.program__title{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #FFFFFF;
+  @media (min-width: $breakpoint-tablet) {
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 60px;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 41px;
+    margin-top: 35px;
+  }
+}
+
+.program{
+  @media (max-width: $breakpoint-mobile) {
+    background-image: url(/images/index-background-desktop-2.jpg), linear-gradient(#63a63b 0, #63a63b 302px, #ffffff 302px);
+    color: #ffffff;
+    background-color: #63a63b;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+  }
+  @media (min-width: $breakpoint-tablet) {
+    background-color: transparent;
+    background-image: none;
+    color: #FFFFFF;
+  }
+}
+
+.program__description{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  @media (min-width: $breakpoint-tablet) {
+    margin: 0 auto;
+    margin-top: 31px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 49px;
+  }
+}
+
+.program__button{
+  background-color: #68B738;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 7px 72px;
+  }
+  @media (min-width: $breakpoint-tablet) {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 14px 26px;
+    position: absolute;
+  }
+}
+
+.program__image{
+  @media (max-width: $breakpoint-mobile) {
+    display: block;
+    margin: 0 auto;
+    margin-top: 29px;
+    width: 280px;
+    height: 270px;
+  }
+  @media (min-width: $breakpoint-tablet) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 680px;
+    height: 550px;
+  }
+}
+
+.program__wrapper{
+  @media (max-width: $breakpoint-mobile) {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 27px;
+  }
+  @media (min-width: $breakpoint-tablet) {
+    position: relative;
+    padding: 0 90px 526px;
+  }
+}
+

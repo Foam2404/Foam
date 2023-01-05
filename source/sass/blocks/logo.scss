@@ -1,0 +1,22 @@
+.logo-1{
+  @media (max-width: $breakpoint-mobile) {
+
+  }
+}
+
+.logo-2{
+  @media (max-width: $breakpoint-mobile) {
+    justify-self: center;
+  }
+  @media (min-width: $breakpoint-tablet) {
+    padding-right: 93.5px;
+  }
+}
+
+
+.logo{
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  align-items: center;
+  gap: 16px;
+}

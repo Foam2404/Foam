@@ -1,0 +1,16 @@
+.offer{
+  background-image: url(/images/offer-background.jpg);
+  padding: 40px;
+  @media (max-width: $breakpoint-mobile) {
+    margin: 35px 20px;
+   }
+}
+
+.offer__description{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
